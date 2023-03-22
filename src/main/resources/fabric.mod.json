@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "specialnametags",
+  "version": "${version}",
+
+  "name": "Special Nametags",
+  "description": "Adds more special nametags (like Dinnerbone).",
+  "authors": [
+    "BisUmTo"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/specialnametags",
+    "issues": "https://github.com/bisumto/specialnametags/issues",
+    "sources": "https://github.com/bisumto/specialnametags"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/specialnametags/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.bisumto.specialnametags.SpecialNametags"
+    ]
+  },
+  "mixins": [
+    "specialnametags.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  }
+}
