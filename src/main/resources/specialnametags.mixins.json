@@ -8,9 +8,6 @@
     "NameTagItemMixin",
     "VindicatorEntityAccessor"
   ],
-  "client": [
-    "AnvilScreenMixin"
-  ],
   "injectors": {
     "defaultRequire": 1
   }
